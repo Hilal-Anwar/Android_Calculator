@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/calculation">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/icons8_calculator_52px"
+
+                    android:title="@string/menu_home" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/icons8_test_tube_52px"
+                    android:title="@string/menu_gallery" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/date_and_time">
+        <menu>
+           <group android:checkableBehavior="single">
+               <item
+               android:id="@+id/nav_slideshow"
+               android:icon="@drawable/icons8_calendar_26px"
+               android:title="@string/menu_date_diff" />
+               <item
+                   android:id="@+id/nav_add_and_Subtract_dates"
+                   android:icon="@drawable/icons8_schedule_26px"
+                   android:title="@string/menu_date_schedule" />
+           </group>
+        </menu>
+    </item>
+    <item android:title="@string/conversion">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_currencyConversion"
+                    android:icon="@drawable/icons8_currency_exchange_26px_1"
+                    android:title="@string/currency" />
+                <item
+                    android:id="@+id/nav_length"
+                    android:icon="@drawable/icons8_length_32px_1"
+                    android:title="@string/menu_length" />
+                <item
+                    android:id="@+id/nav_mass"
+                    android:icon="@drawable/icons8_weight_32px"
+                    android:title="@string/mass_and_weight" />
+                <item
+                    android:id="@+id/nav_time"
+                    android:icon="@drawable/icons8_time_32px"
+                    android:title="@string/time" />
+                <item
+                    android:id="@+id/nav_angle"
+                    android:icon="@drawable/icons8_inclination_32px"
+                    android:title="@string/angle" />
+                <item
+                    android:id="@+id/nav_speed"
+                    android:icon="@drawable/icons8_speed_32px"
+                    android:title="@string/speed" />
+                <item
+                    android:id="@+id/nav_area"
+                    android:icon="@drawable/icons8_area_chart_32px"
+                    android:title="@string/area" />
+                <item
+                    android:id="@+id/nav_volume"
+                    android:icon="@drawable/icons8_sugar_cube_32px"
+                    android:title="@string/volume" />
+                <item
+                    android:id="@+id/nav_temperature"
+                    android:icon="@drawable/icons8_temperature_32px"
+                    android:title="@string/temperature" />
+                <item
+                    android:id="@+id/nav_force"
+                    android:icon="@drawable/icons8_fight_32px"
+                    android:title="@string/force" />
+                <item
+                    android:id="@+id/nav_energy_power"
+                    android:icon="@drawable/icons8_bang_32px"
+                    android:title="@string/energy_and_power" />
+                <item
+                    android:id="@+id/nav_pressure"
+                    android:icon="@drawable/icons8_pressure_32px"
+                    android:title="@string/pressure" />
+                <item
+                    android:id="@+id/nav_density"
+                    android:icon="@drawable/icons8_atmospheric_pressure_32px"
+                    android:title="@string/density" />
+                <item
+                    android:id="@+id/nav_viscosity"
+                    android:icon="@drawable/icons8_mu_32px"
+                    android:title="@string/viscosity" />
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/icons8_info_96px"
+                    android:title="@string/about" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.About">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="©Omega\n Scientific calculator and unit converter \n \n Author:Helal  Anwar\n Email:hilal123anwar@gmail.com\n \n \n Build Information\n Version 1.0.0\n Date: 2020-059-25\n \n Disclamier \n © 2019 Refinitiv All Rights Reserved. The information contained herein: (1) is proprietary to Refinitiv and/or its content providers; (2) may not be copied or distributed; and (3) is not warranted to be accurate, complete or timely. Neither Refinitiv nor its content providers are responsible for any damages or losses arising from any use of this information. Past performance is no guarantee of future results."
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

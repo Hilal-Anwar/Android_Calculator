@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.calculator.ui.standard.StandardFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_standard" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.calculator.ui.scientific.ScientificFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_scientific" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.calculator.ui.date.DataFragment"
+        android:label="@string/menu_date_diff"
+        tools:layout="@layout/fragment_date" />
+    <fragment
+        android:id="@+id/nav_length"
+        android:name="com.example.calculator.ui.conversion.LengthConversion"
+        android:label="@string/menu_length"
+        tools:layout="@layout/fragment_length_conversion" />
+    <fragment
+        android:id="@+id/nav_mass"
+        android:name="com.example.calculator.ui.conversion.MassWeightConversion"
+        android:label="Mass and Weight"
+        tools:layout="@layout/fragment_mass_weight_conversion" />
+    <fragment
+        android:id="@+id/nav_area"
+        android:name="com.example.calculator.ui.conversion.AreaConversion"
+        android:label="Area"
+        tools:layout="@layout/fragment_area_conversion" />
+    <fragment
+        android:id="@+id/nav_volume"
+        android:name="com.example.calculator.ui.conversion.VolumeConversion"
+        android:label="Volume"
+        tools:layout="@layout/fragment_volume_conversion" />
+    <fragment
+        android:id="@+id/nav_time"
+        android:name="com.example.calculator.ui.conversion.TimeConversion"
+        android:label="Time"
+        tools:layout="@layout/fragment_time_conversion" />
+    <fragment
+        android:id="@+id/nav_angle"
+        android:name="com.example.calculator.ui.conversion.AngleConversion"
+        android:label="Angle"
+        tools:layout="@layout/fragment_angle_conversion" />
+    <fragment
+        android:id="@+id/nav_speed"
+        android:name="com.example.calculator.ui.conversion.SpeedConversion"
+        android:label="Speed"
+        tools:layout="@layout/fragment_speed_conversion" />
+    <fragment
+        android:id="@+id/nav_temperature"
+        android:name="com.example.calculator.ui.conversion.TemperatureConversion"
+        android:label="Temperature"
+        tools:layout="@layout/fragment_temperature_conversion" />
+    <fragment
+        android:id="@+id/nav_force"
+        android:name="com.example.calculator.ui.conversion.ForceConversion"
+        android:label="Force"
+        tools:layout="@layout/fragment_force_conversion" />
+    <fragment
+        android:id="@+id/nav_energy_power"
+        android:name="com.example.calculator.ui.conversion.EnergyAndPowerConversion"
+        android:label="Energy and power"
+        tools:layout="@layout/fragment_energyand_powe_conversion" />
+    <fragment
+        android:id="@+id/nav_pressure"
+        android:name="com.example.calculator.ui.conversion.PressureConversion"
+        android:label="Pressure"
+        tools:layout="@layout/fragment_pressure_conversion" />
+    <fragment
+        android:id="@+id/nav_density"
+        android:name="com.example.calculator.ui.conversion.DensityConversion"
+        android:label="Density"
+        tools:layout="@layout/fragment_density_conversion" />
+    <fragment
+        android:id="@+id/nav_viscosity"
+        android:name="com.example.calculator.ui.conversion.ViscosityConversion"
+        android:label="Viscosity"
+        tools:layout="@layout/fragment_viscosity_conversion" />
+    <fragment
+        android:id="@+id/nav_add_and_Subtract_dates"
+        android:name="com.example.calculator.ui.date.Add_and_Subtract_dates"
+        android:label="Add and subtract days"
+        tools:layout="@layout/fragment_add_and__subtract_dates" />
+    <fragment
+        android:id="@+id/nav_currencyConversion"
+        android:name="com.example.calculator.ui.conversion.CurrencyConversion"
+        android:label="Currency"
+        tools:layout="@layout/fragment_currency_conversion" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.calculator.ui.About"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>
